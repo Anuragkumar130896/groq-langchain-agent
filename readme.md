@@ -1,10 +1,10 @@
-# 🤖 AI Agent using Groq + LLaMA3 + FastAPI + Streamlit
+# chat bot using Groq + LLaMA3 + FastAPI + Streamlit
 
 This project is an end-to-end conversational AI agent that uses the **LLaMA3-8B-8192 model** through **Groq’s ultra-fast inference engine**. It’s built using a FastAPI backend to process structured queries and a Streamlit frontend for a simple UI.
 
 ---
 
-## 🚀 Features
+##Features
 
 - Query a powerful LLaMA3 AI model using Groq
 - Send dynamic prompts with `model`, `provider`, and `system_prompt`
@@ -15,7 +15,7 @@ This project is an end-to-end conversational AI agent that uses the **LLaMA3-8B-
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **LLM**: Groq API + LLaMA3 8B
 - **Backend**: FastAPI
@@ -24,7 +24,7 @@ This project is an end-to-end conversational AI agent that uses the **LLaMA3-8B-
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ai_agent_app/
 ├── backend/
@@ -42,9 +42,9 @@ ai_agent_app/
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
-### ✅ Step 1: Clone Repo & Install Requirements
+###  Step 1: Clone Repo & Install Requirements
 
 ```bash
 git clone https://github.com/your-username/ai-agent-app.git
@@ -55,13 +55,13 @@ venv\Scripts\activate  # For Windows
 
 pip install -r requirements.txt
 
-✅ Step 2: Create .env File
+Step 2: Create .env File
 GROQ_API_KEY=your_groq_api_key_here
 You can get the API key here: https://console.groq.com/keys
 
-✅ Step 3: Run FastAPI Backend
+ Step 3: Run FastAPI Backend
 uvicorn backend.main:app --reload
-🔗 Visit API docs at:
+ Visit API docs at:
 http://127.0.0.1:8000/docs
 
 Sample /query request body:
@@ -71,7 +71,7 @@ Sample /query request body:
   "system_prompt": "You are a helpful assistant.",
   "query": "What is Artificial Intelligence?"
 }
-✅ Step 4: Run Streamlit Frontend
+ Step 4: Run Streamlit Frontend
 cd frontend
 streamlit run app.py
 🖥 Visit your frontend at:
