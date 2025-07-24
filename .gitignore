@@ -1,0 +1,59 @@
+#  Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+
+#  Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+*.env
+
+#  IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+#  OS
+.DS_Store
+Thumbs.db
+
+#  Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Compiled
+*.so
+
+#  Test and Coverage
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+.nox/
+
+#  Streamlit cache
+.streamlit/
+
+#  FastAPI auto reload cache
+__pycache__/
+*.db
+
+#  Jupyter
+.ipynb_checkpoints
+
+# Ignore response/output files
+*.json
+response_*.json
+
+#  Misc
+*.egg-info/
+dist/
+build/
+
