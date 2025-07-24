@@ -80,13 +80,13 @@ http://localhost:8501
 
 ###Future Enhancements
 
- #Add tool-calling with Tavily web search
+1-Add tool-calling with Tavily web search
 
-# Model switcher (Groq / OpenAI / Hugging Face)
+2- Model switcher (Groq / OpenAI / Hugging Face)
 
-# Chat history memory
+3- Chat history memory
 
-# Deployment to Hugging Face or Render
+4- Deployment to Hugging Face or Render
 
 
 # Acknowledgements
